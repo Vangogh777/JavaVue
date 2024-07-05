@@ -51,6 +51,7 @@ public class ParamController {
         System.out.println(phone);
         System.out.println(nickname);
         return "post请求2 "+nickname + " " + phone;
+
     }
 
     @RequestMapping(value = "/postTest3",method = RequestMethod.POST)
