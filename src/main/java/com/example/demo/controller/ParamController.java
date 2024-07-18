@@ -71,4 +71,9 @@ public class ParamController {
     public String test(){
         return "通配符请求";
     }
+
+    @RequestMapping(value = "/test1/**",method = RequestMethod.GET)
+    public String test1(){
+        return "通配符请求1";
+    }
 }
